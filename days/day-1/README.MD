@@ -4,7 +4,7 @@ Welcome to the elite [Motoko School](https://twitter.com/MotokoSchool), where ta
 
 Today marks your exciting first day, and while it may be intense, take the chance to bond with your teammates and brace yourself for the adventure ahead. Don't worry if you fall behind; allow yourself the time needed to grasp the material. Keep in mind that 7 days is a brief period to learn everything there is to know about Web 3.0 and the Internet Computer. All resources will be available after the week is over, so you can catch-up on anything you've missed. <br/>
 今日が初日で、緊張するかもしれませんが、チームメイトとの絆を深め、これからの冒険に向けて気を引き締めてください。遅れをとっても気にしないでください。7日間という短い期間で、Web3.0とInternet Computerに関するあらゆることを学ぶことを念頭に置いておいてください。7日間という短い期間ではありますが、Web3.0とInternet Computerのすべてを学ぶことができます。<br/>
-Above all, the most vital aspect of the Bootcamp is to have fun and build connections - let's learn and grow together. 💪
+Above all, the most vital aspect of the Bootcamp is to have fun and build connections - let's learn and grow together. 💪  
 そして何より、このBootcampで最も重要なのは、楽しみながら人脈を築くこと。一緒に学び、成長しましょう。💪
 
 ## 🍿 Lectures & events 講演とイベント
