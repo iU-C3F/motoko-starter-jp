@@ -9,6 +9,7 @@ Above all, the most vital aspect of the Bootcamp is to have fun and build connec
 
 ## 🍿 Lectures & events 講演とイベント
 > Be sure to consult the calendar for the precise schedule of each lecture.
+
 > 各講演の正確なスケジュールは、必ずカレンダーでご確認ください。
 
 | Title | Mentor |  Description |
@@ -71,5 +72,5 @@ Above all, the most vital aspect of the Bootcamp is to have fun and build connec
 
 > Motoko Bootcamp の第1回目は、2022年3月に完全オンラインで実施されました。
 
-Good luck 🍀
+Good luck 🍀  
 幸運を祈る 🍀
