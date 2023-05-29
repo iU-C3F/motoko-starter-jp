@@ -101,7 +101,7 @@ b.add(100);
 b.size();   // 3
 ```
 To access an elements in the buffer, use the `.get()` method and provides the index. Traps if `index` >= `size`. Indexing is zero-based like with `Array`.  
-バッファ内の要素にアクセスするには、`.get()`メソッドを使用し、インデックスを指定します。index` >= `size` の場合はトラップする。インデックスは `Array` と同様にゼロベースである。
+バッファ内の要素にアクセスするには、`.get()`メソッドを使用し、インデックスを指定します。`index` >= `size` の場合はトラップする。インデックスは `Array` と同様にゼロベースである。
 ```motoko
 let b = Buffer.Buffer<Nat>(2);
 b.add(0);   
