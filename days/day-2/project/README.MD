@@ -35,7 +35,7 @@ homeworkId が無効な場合は、エラーメッセージを `Err` 結果で�
 ```motoko
 getHomework: shared query (id: Nat) -> async Result.Result<Homework, Text>;
 ```
-5. Implement `updateHomework`, which accepts a homeworkId of type `Nat` and a homework of type `Homework`, updates the corresponding homework in `homeworkDiary`, and returns a unit value wrapped in an `Ok` result. If the homeworkId is invalid, the function should return an error message wrapped in an `Err` result. / `Nat` 型の homeworkId と `Homework` 型の宿題を受け取り、`homeworkDiary` の対応する宿題を更新し、`Ok` 結果にラップした単位値を返す `updateHomework` を実装しなさい。homeworkId が無効な場合、この関数は `Err` 結果でラップされたエラーメッセージを返す必要があります。
+5. Implement `updateHomework`, which accepts a homeworkId of type `Nat` and a homework of type `Homework`, updates the corresponding homework in `homeworkDiary`, and returns a unit value wrapped in an `Ok` result. If the homeworkId is invalid, the function should return an error message wrapped in an `Err` result. / `Nat` 型の homeworkId と `Homework` 型の宿題を受け取り、`homeworkDiary` の対応する宿題を更新し、`Ok` 結果にラップした Unit 値を返す `updateHomework` を実装しなさい。homeworkId が無効な場合、この関数は `Err` 結果でラップされたエラーメッセージを返す必要があります。
 ```motoko
 updateHomework: shared (id: Nat, homework: Homework) -> async Result.Result<(), Text>;
 ```
