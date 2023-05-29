@@ -60,7 +60,7 @@ Today, we'll delve deeper into the Motoko language with two specialized lectures
 - Understanding [what is DAO](../../manuals/appendix/appendix-2/APPENDIX-2.MD), how it can be used and how the Internet Computer enables new innovative usecases for those organisations.
 - [what is DAO](../../manuals/appendix/appendix-2/APPENDIX-2.MD)、その利用方法、Internet Computer がそれらの組織にとって新しい革新的利用事例をいかに可能にするかを理解する。
 - Becoming familiar with an important DAO on the Internet Computer: the [Network Nervous System](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/appendix/appendix-4/APPENDIX-4.MD).
-- インターネット・コンピュータの重要な DAO である [Network Nervous System](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/appendix/appendix-4/APPENDIX-4.MD) に精通する。
+- Internet Computer の重要な DAO である [Network Nervous System](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/appendix/appendix-4/APPENDIX-4.MD) に精通する。
 
 > Before deciding to call it **Motoko**, the language developed by **DFINITY** was actually called **ActorScript**. 
 
