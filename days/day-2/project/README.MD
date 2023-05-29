@@ -30,20 +30,20 @@ Your task is to create a collaborative homework diary, implement as a canister. 
 addHomework: shared (homework: Homework) -> async Nat;
 ```
 4. Implement `getHomework`, which accepts a homeworkId of type `Nat`, and returns the corresponding homework wrapped in an Ok result. 
-If the homeworkId is invalid, the function should return an error message wrapped in an `Err` result. / `Nat` 型の homeworkId を受け取り、対応する宿題を Ok 結果に包んで返す `getHomework` を実装しなさい。
-homeworkId が無効な場合は、エラーメッセージを `Err` 結果で包んで返す必要があります。
+If the homeworkId is invalid, the function should return an error message wrapped in an `Err` result. / `Nat` 型の homeworkId を受け取り、対応する宿題を Ok result に包んで返す `getHomework` を実装しなさい。
+homeworkId が無効な場合は、エラーメッセージを `Err` result で包んで返す必要があります。
 ```motoko
 getHomework: shared query (id: Nat) -> async Result.Result<Homework, Text>;
 ```
-5. Implement `updateHomework`, which accepts a homeworkId of type `Nat` and a homework of type `Homework`, updates the corresponding homework in `homeworkDiary`, and returns a unit value wrapped in an `Ok` result. If the homeworkId is invalid, the function should return an error message wrapped in an `Err` result. / `Nat` 型の homeworkId と `Homework` 型の宿題を受け取り、`homeworkDiary` の対応する宿題を更新し、`Ok` 結果にラップした Unit 値を返す `updateHomework` を実装しなさい。homeworkId が無効な場合、この関数は `Err` 結果でラップされたエラーメッセージを返す必要があります。
+5. Implement `updateHomework`, which accepts a homeworkId of type `Nat` and a homework of type `Homework`, updates the corresponding homework in `homeworkDiary`, and returns a unit value wrapped in an `Ok` result. If the homeworkId is invalid, the function should return an error message wrapped in an `Err` result. / `Nat` 型の homeworkId と `Homework` 型の宿題を受け取り、`homeworkDiary` の対応する宿題を更新し、`Ok` result にラップした Unit 値を返す `updateHomework` を実装しなさい。homeworkId が無効な場合、この関数は `Err` result でラップされたエラーメッセージを返す必要があります。
 ```motoko
 updateHomework: shared (id: Nat, homework: Homework) -> async Result.Result<(), Text>;
 ```
-6. Implement `markAsComplete`, which accepts a homeworkId of type `Nat` and updates the completed field of the corresponding homework to `true`, and returns a unit value wrapped in an `Ok` result. If the `homeworkId` is invalid, the function should return an error message wrapped in an `Err` result. / `Nat`型の homeworkId を受け取り、対応する宿題の completed フィールドを `true` に更新し、`Ok` 結果にラップされたユニット値を返す `markAsComplete` を実装しなさい。`homeworkId` が無効な場合は、エラーメッセージを `Err` でラップして返す必要がある。
+6. Implement `markAsComplete`, which accepts a homeworkId of type `Nat` and updates the completed field of the corresponding homework to `true`, and returns a unit value wrapped in an `Ok` result. If the `homeworkId` is invalid, the function should return an error message wrapped in an `Err` result. / `Nat`型の homeworkId を受け取り、対応する宿題の completed フィールドを `true` に更新し、`Ok` result にラップされたユニット値を返す `markAsComplete` を実装しなさい。`homeworkId` が無効な場合は、エラーメッセージを `Err` でラップして返す必要がある。
 ```motoko
 markAsCompleted: shared (id: Nat) -> async Result.Result<(), Text>;
 ```
-7. Implement `deleteHomework`, which accepts a `homeworkId` of type `Nat`, removes the corresponding homework from the `homeworkDiary`, and returns a unit value wrapped in an `Ok` result. If the `homeworkId` is invalid, the function should return an error message wrapped in an `Err` result. / `deleteHomework`を実装しなさい。この関数は `Nat` 型の `homeworkId` を受け取り、`homeworkDiary` から該当する宿題を削除し、`Ok` 結果にラップされた Unit 値を返す。もし `homeworkId` が無効であれば、この関数は `Err` 結果で包まれたエラーメッセージを返すべきです。
+7. Implement `deleteHomework`, which accepts a `homeworkId` of type `Nat`, removes the corresponding homework from the `homeworkDiary`, and returns a unit value wrapped in an `Ok` result. If the `homeworkId` is invalid, the function should return an error message wrapped in an `Err` result. / `deleteHomework`を実装しなさい。この関数は `Nat` 型の `homeworkId` を受け取り、`homeworkDiary` から該当する宿題を削除し、`Ok` result にラップされた Unit 値を返す。もし `homeworkId` が無効であれば、この関数は `Err` result で包まれたエラーメッセージを返すべきです。
 ```motoko
 deleteHomework: shared (id: Nat) -> async Result.Result<(), Text>;
 ```
