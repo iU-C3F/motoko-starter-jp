@@ -20,23 +20,23 @@ Today, we'll delve deeper into the Motoko language with two specialized lectures
 
 > このリストには、読むべき資料と取り組むべき課題がすべて含まれています。
 - Read 読みましょう [Chapter 2: Common programming concepts](../../manuals/chapters/chapter-2/CHAPTER-2.MD).
-    - [Control flow](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-2/CHAPTER-2.MD#%EF%B8%8F-control-flow)
+    - [Control flow](../../manuals/chapters/chapter-2/CHAPTER-2.MD#%EF%B8%8F-control-flow)
 - Read 読みましょう [Chapter 3: Primitive Types in Motoko](../../manuals/chapters/chapter-3/CHAPTER-3.MD).
-    - [Text](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-3/CHAPTER-3.MD#-text)
-    - [Char](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-3/CHAPTER-3.MD#-char)
-    - [Unit type](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-3/CHAPTER-3.MD#-unit-type)
+    - [Text](../../manuals/chapters/chapter-3/CHAPTER-3.MD#-text)
+    - [Char](../../manuals/chapters/chapter-3/CHAPTER-3.MD#-char)
+    - [Unit type](../../manuals/chapters/chapter-3/CHAPTER-3.MD#-unit-type)
 - Read 読みましょう [Chapter 5: Modules and the Base library](../../manuals/chapters/chapter-5/CHAPTER-5.MD)  in full.
 - Read 読みましょう [Chapter 6: Storing data in data structures](../../manuals/chapters/chapter-6/CHAPTER-6.MD)
-    - [Array](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-6/CHAPTER-6.MD#%EF%B8%8F-array)
-    - [Buffer](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-6/CHAPTER-6.MD#-buffer)
-    - [List](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-6/CHAPTER-6.MD#-list)
+    - [Array](../../manuals/chapters/chapter-6/CHAPTER-6.MD#%EF%B8%8F-array)
+    - [Buffer](../../manuals/chapters/chapter-6/CHAPTER-6.MD#-buffer)
+    - [List](../../manuals/chapters/chapter-6/CHAPTER-6.MD#-list)
 - Read 読みましょう [Chapter 7: Non-primitives types](../../manuals/chapters/chapter-7/CHAPTER-7.MD).
-    - [Tuples](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-7/CHAPTER-7.MD#-tuples)
-    - [Objects](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-7/CHAPTER-7.MD#-objects)
+    - [Tuples](../../manuals/chapters/chapter-7/CHAPTER-7.MD#-tuples)
+    - [Objects](../../manuals/chapters/chapter-7/CHAPTER-7.MD#-objects)
 - Read 読みましょう [Appendix 2: Unlocking the power of DAOs with canister](../../manuals/appendix/appendix-2/APPENDIX-2.MD) in full.
 - Read 読みましょう [Appendix 4: Overview of the NNS](../../manuals/appendix/appendix-4/APPENDIX-4.MD) in full.
 - Read 読みましょう [Appendix 7: Debugging and testing with Motoko](../../manuals/appendix/appendix-7/APPENDIX-7.MD)
-    - [Debugging](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/appendix/appendix-7/APPENDIX-7.MD#debugging)
+    - [Debugging](../../manuals/appendix/appendix-7/APPENDIX-7.MD#debugging)
 - Complete the [project of the day](./project/README.MD). / [project of the day](./project/README.MD) を完成させてください。
 ## 🎯 Learning objectives 学習目標
 > **Before you finish your day**, review the following list and ensure that you have addressed each item on it. It's important that you have a clear understanding of all these concepts. <br/> <i> Why not try explaining them to one of your teammate to gauge your level of understanding? </i>
