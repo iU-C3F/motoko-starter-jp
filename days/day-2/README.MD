@@ -43,24 +43,24 @@ Today, we'll delve deeper into the Motoko language with two specialized lectures
 
 > **一日を終える前に**、以下のリストを確認し、各項目に対応できていることを確認してください。これらの概念をすべて明確に理解することが重要です。<br/> <i> チームメイトに説明してみて、理解度を測ってみてはいかがでしょうか。 </i>
 
-- Understand what is a [module](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-5/CHAPTER-5.MD#-modules).
-- [module](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-5/CHAPTER-5.MD#-modules) とは何かを理解する。
-- Understand what is the [base library](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-5/CHAPTER-5.MD#-the-base-library), [how to use it](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-5/CHAPTER-5.MD#importing-from-the-base-library) and where to find the [source code](https://github.com/dfinity/motoko-base). 
-- [base library](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-5/CHAPTER-5.MD#-the-base-library) とは何か、[how to use it](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-5/CHAPTER-5.MD#importing-from-the-base-library)、[source code](https://github.com/dfinity/motoko-base) はどこにあるのかを理解する。
-- Understand how to use the [Debug module](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/appendix/appendix-7/APPENDIX-7.MD#debugging) to test your code locally.
-- [Debug module](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/appendix/appendix-7/APPENDIX-7.MD#debugging) を使って、コードをローカルでテストする方法を理解する。
-- Understand how to manipulate [control flow operators](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-2/CHAPTER-2.MD#%EF%B8%8F-control-flow) in Motoko: `if`, `else`, `for`, `while`, `switch/case`
-- Motoko の [control flow operators](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-2/CHAPTER-2.MD#%EF%B8%8F-control-flow) の操作方法を理解する：`if`, `else`, `for`, `while`, `switch/case`
+- Understand what is a [module](../../manuals/chapters/chapter-5/CHAPTER-5.MD#-modules).
+- [module](../../manuals/chapters/chapter-5/CHAPTER-5.MD#-modules) とは何かを理解する。
+- Understand what is the [base library](../../manuals/chapters/chapter-5/CHAPTER-5.MD#-the-base-library), [how to use it](../../manuals/chapters/chapter-5/CHAPTER-5.MD#importing-from-the-base-library) and where to find the [source code](https://github.com/dfinity/motoko-base). 
+- [base library](../../manuals/chapters/chapter-5/CHAPTER-5.MD#-the-base-library) とは何か、[how to use it](../../manuals/chapters/chapter-5/CHAPTER-5.MD#importing-from-the-base-library)、[source code](https://github.com/dfinity/motoko-base) はどこにあるのかを理解する。
+- Understand how to use the [Debug module](../../manuals/appendix/appendix-7/APPENDIX-7.MD#debugging) to test your code locally.
+- [Debug module](../../manuals/appendix/appendix-7/APPENDIX-7.MD#debugging) を使って、コードをローカルでテストする方法を理解する。
+- Understand how to manipulate [control flow operators](../../manuals/chapters/chapter-2/CHAPTER-2.MD#%EF%B8%8F-control-flow) in Motoko: `if`, `else`, `for`, `while`, `switch/case`
+- Motoko の [control flow operators](../../manuals/chapters/chapter-2/CHAPTER-2.MD#%EF%B8%8F-control-flow) の操作方法を理解する：`if`, `else`, `for`, `while`, `switch/case`
 - Getting familiar with more primitive types in Motoko: `Text`, `Char` & the unit type.
 - Motoko でよりプリミティブな型に慣れる：`Text`、`Char`、ユニット型。
-- Getting familiar with simple data structures in Motoko: [Array](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-6/CHAPTER-6.MD#%EF%B8%8F-array) , [List](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-6/CHAPTER-6.MD#-list) & [Buffer](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-6/CHAPTER-6.MD#-buffer).
-- Motokoの簡単なデータ構造に慣れる： [Array](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-6/CHAPTER-6.MD#%EF%B8%8F-array) , [List](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-6/CHAPTER-6.MD#-list) & [Buffer](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-6/CHAPTER-6.MD#-buffer)
-- Getting familiar with more advanced types: [Tuples](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-7/CHAPTER-7.MD#-tuples) and [Objects](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-7/CHAPTER-7.MD#-objects).
-- より高度な型に慣れ親しむ： [Tuples](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-7/CHAPTER-7.MD#-tuples) と [Objects](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/chapters/chapter-7/CHAPTER-7.MD#-objects)
+- Getting familiar with simple data structures in Motoko: [Array](../../manuals/chapters/chapter-6/CHAPTER-6.MD#%EF%B8%8F-array) , [List](../../manuals/chapters/chapter-6/CHAPTER-6.MD#-list) & [Buffer](../../manuals/chapters/chapter-6/CHAPTER-6.MD#-buffer).
+- Motokoの簡単なデータ構造に慣れる： [Array](../../manuals/chapters/chapter-6/CHAPTER-6.MD#%EF%B8%8F-array) , [List](../../manuals/chapters/chapter-6/CHAPTER-6.MD#-list) & [Buffer](../../manuals/chapters/chapter-6/CHAPTER-6.MD#-buffer)
+- Getting familiar with more advanced types: [Tuples](../../manuals/chapters/chapter-7/CHAPTER-7.MD#-tuples) and [Objects](../../manuals/chapters/chapter-7/CHAPTER-7.MD#-objects).
+- より高度な型に慣れ親しむ： [Tuples](../../manuals/chapters/chapter-7/CHAPTER-7.MD#-tuples) と [Objects](../../manuals/chapters/chapter-7/CHAPTER-7.MD#-objects)
 - Understanding [what is DAO](../../manuals/appendix/appendix-2/APPENDIX-2.MD), how it can be used and how the Internet Computer enables new innovative usecases for those organisations.
 - [what is DAO](../../manuals/appendix/appendix-2/APPENDIX-2.MD)、その利用方法、Internet Computer がそれらの組織にとって新しい革新的利用事例をいかに可能にするかを理解する。
-- Becoming familiar with an important DAO on the Internet Computer: the [Network Nervous System](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/appendix/appendix-4/APPENDIX-4.MD).
-- Internet Computer の重要な DAO である [Network Nervous System](https://github.com/motoko-bootcamp/motoko-starter/blob/main/manuals/appendix/appendix-4/APPENDIX-4.MD) に精通する。
+- Becoming familiar with an important DAO on the Internet Computer: the [Network Nervous System](../../manuals/appendix/appendix-4/APPENDIX-4.MD).
+- Internet Computer の重要な DAO である [Network Nervous System](../../manuals/appendix/appendix-4/APPENDIX-4.MD) に精通する。
 
 > Before deciding to call it **Motoko**, the language developed by **DFINITY** was actually called **ActorScript**. 
 
