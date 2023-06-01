@@ -54,18 +54,18 @@ writeMessage: shared (c : Content) -> async Nat;
 getMessage: shared query (messageId: Nat) -> async Result.Result<Message, Text>;
 ```
 6. Implement the `updateMessage` function, which accepts a `messageId` of type `Nat` and a content `c` of type `Content`. This function updates the content of the corresponding message only if the caller is the creator of the message. If the `messageId` is invalid or the `caller` is not the creator, the function should return an error message wrapped in an `Err` result. If the update is successful, the function should return a unit value wrapped in an `Ok` result.  
-`Nat` 型の `messageId` と `Content` 型のコンテンツ `c` を受け取る `updateMessage` 関数を実装しなさい。この関数は、呼び出し元がメッセージの作成者である場合にのみ、対応するメッセージの内容を更新します。`messageId` が無効な場合、または `caller` が作成者でない場合、この関数は `Err` 結果に包まれたエラーメッセージを返す必要があります。更新が成功した場合、この関数は `Ok` result に包まれたユニット値を返す必要があります。 
+`Nat` 型の `messageId` と `Content` 型のコンテンツ `c` を受け取る `updateMessage` 関数を実装しなさい。この関数は、呼び出し元がメッセージの作成者である場合にのみ、対応するメッセージの内容を更新します。`messageId` が無効な場合、または `caller` が作成者でない場合、この関数は `Err` result に包まれたエラーメッセージを返す必要があります。更新が成功した場合、この関数は `Ok` result に包まれたユニット値を返す必要があります。 
 ```motoko
 updateMessage: shared (messageId : Nat, c : Content) -> async Result.Result<(), Text>;
 ```
 7. Implement the `deleteMessage` function, which accepts a `messageId` of type `Nat`, removes the corresponding message from the wall, and returns a unit value wrapped in an `Ok` result. If the `messageId` is invalid, the function should return an error message wrapped in an `Err` result.  
-`deleteMessage`関数を実装しいなさい。この関数は `Nat` 型の `messageId` を受け取り、対応するメッセージをウォールから削除し、`Ok` 結果に包まれた単位値を返します。もし `messageId` が無効であれば、この関数は `Err` 結果に包まれたエラーメッセージを返さなければなりません。
+`deleteMessage`関数を実装しいなさい。この関数は `Nat` 型の `messageId` を受け取り、対応するメッセージをウォールから削除し、`Ok` result に包まれた単位値を返します。もし `messageId` が無効であれば、この関数は `Err` result に包まれたエラーメッセージを返さなければなりません。
 ```motoko
 deleteMessage: shared (messageId : Nat) -> async Result.Result<(), Text>;
 ```
 8. Implement the `upVote` function, which accepts a `messageId` of type `Nat`, increments the vote count of the corresponding message by one, and returns a unit value wrapped in an `Ok` result. If the `messageId` is invalid, the function should return an error message wrapped in an `Err` result.  
 
-`Nat`型の `messageId` を受け取り、対応するメッセージの投票数を1つ増やし、`Ok`の結果に包まれた単位値を返す `upVote` 関数を実装しなさい。`messageId` が無効な場合、この関数は `Err` 結果でラップされたエラーメッセージを返すべきです。 
+`Nat`型の `messageId` を受け取り、対応するメッセージの投票数を1つ増やし、`Ok` result に包まれた unit 値を返す `upVote` 関数を実装しなさい。`messageId` が無効な場合、この関数は `Err` result でラップされたエラーメッセージを返すべきです。 
 ```motoko
 upVote: shared (messageId  : Nat) -> async Result.Result<(), Text>;
 ```
