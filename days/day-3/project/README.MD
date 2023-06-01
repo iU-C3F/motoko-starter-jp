@@ -49,7 +49,7 @@ public type Content = {
 writeMessage: shared (c : Content) -> async Nat;
 ```
 5. Implement the `getMessage` function, which accepts a `messageId` of type `Nat` and returns the corresponding message wrapped in an `Ok` result. If the `messageId` is invalid, the function should return an error message wrapped in an `Err` result.  
-この関数は `Nat` 型の `messageId` を受け取り、対応するメッセージを `Ok` result に包んで返します。もし `messageId` が無効であれば、この関数は `Err` result に包まれたエラーメッセージを返す必要があります。
+`Nat`型の `messageId` を受け取り、対応するメッセージを `Ok` result で包んで返す `getMessage` 関数を実装しなさい。`messageId` が無効な場合、この関数は `Err` result でラップされたエラーメッセージを返すべきです。 
 ```motoko
 getMessage: shared query (messageId: Nat) -> async Result.Result<Message, Text>;
 ```
