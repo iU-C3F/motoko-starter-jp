@@ -6,7 +6,7 @@ Today, we'll address the essential building blocks for creating an application o
 今日は、Internet Computer 上でアプリケーションを作成するために不可欠なビルディング・ブロックを取り上げます： CRUD 操作と認証。<br/>
 
 It's vital to master the topics we'll explore today. If you need assistance, don't hesitate to reach out to your teammates or mentors. Remember, we're all here to learn, share a laugh, and support one another. 😉  
-今日取り上げるトピックをマスターすることが肝心です。サポートが必要な場合は、遠慮なくチームメイトやメンターに声をかけてください。私たちは皆、学び、笑い、支え合うためにここにいることを忘れないでください。
+今日取り上げるトピックをマスターすることが肝心です。サポートが必要な場合は、遠慮なくチームメイトやメンターに声をかけてください。私たちは皆、学び、笑い、支え合うためにここにいることを忘れないでください。 😉
 
 ## 🍿 Lectures & events 講演とイベント
 > Be sure to consult the calendar for the precise schedule of each lecture.
