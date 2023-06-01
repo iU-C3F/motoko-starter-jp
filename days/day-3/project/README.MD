@@ -59,7 +59,7 @@ getMessage: shared query (messageId: Nat) -> async Result.Result<Message, Text>;
 updateMessage: shared (messageId : Nat, c : Content) -> async Result.Result<(), Text>;
 ```
 7. Implement the `deleteMessage` function, which accepts a `messageId` of type `Nat`, removes the corresponding message from the wall, and returns a unit value wrapped in an `Ok` result. If the `messageId` is invalid, the function should return an error message wrapped in an `Err` result.  
-`deleteMessage`関数を実装しいなさい。この関数は `Nat` 型の `messageId` を受け取り、対応するメッセージをウォールから削除し、`Ok` result に包まれた単位値を返します。もし `messageId` が無効であれば、この関数は `Err` result に包まれたエラーメッセージを返さなければなりません。
+`deleteMessage`関数を実装しなさい。この関数は `Nat` 型の `messageId` を受け取り、対応するメッセージをウォールから削除し、`Ok` result に包まれた単位値を返します。もし `messageId` が無効であれば、この関数は `Err` result に包まれたエラーメッセージを返さなければなりません。
 ```motoko
 deleteMessage: shared (messageId : Nat) -> async Result.Result<(), Text>;
 ```
