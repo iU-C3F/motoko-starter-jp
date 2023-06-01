@@ -53,7 +53,7 @@ It's vital to master the topics we'll explore today. If you need assistance, don
 - Getting familiar with using data structures such as: [HashMap and TrieMap](../../manuals/chapters/chapter-6/CHAPTER-6.MD#-hashmap--triemap).
 - [HashMap と TrieMap](../../manuals/chapters/chapter-6/CHAPTER-6.MD#-hashmap--triemap) などのデータ構造に慣れる。
 - Understanding what is a [Principal](../../manuals/chapters/chapter-10/CHAPTER-10.MD#the-concept-of-principal), how it's used on the Internet Computer and being able to [manipulate the primitive type `Principal` in Motoko](../../manuals/chapters/chapter-10/CHAPTER-10.MD#accessing-the-user-principal).
-- [Principal](../../manuals/chapters/chapter-10/CHAPTER-10.MD#the-concept-of-principal) とは何か、インターネットコンピュータでどのように使われているかを理解し、[モトコのプリミティブ型 `Principal` を操作](../../manuals/chapters/chapter-10/CHAPTER-10.MD#accessing-the-user-principal) できるようになる。
+- [Principal](../../manuals/chapters/chapter-10/CHAPTER-10.MD#the-concept-of-principal) とは何か、インターネットコンピュータでどのように使われているかを理解し、[Motoko のプリミティブ型 `Principal` を操作](../../manuals/chapters/chapter-10/CHAPTER-10.MD#accessing-the-user-principal) できるようになる。
 - Understanding how to interact with a canister using the **JavaScript** agent.
 - **JavaScript** エージェントを使用したキャニスターとの対話方法を理解する。
 - Understanding how to use [Internet Identity](../../manuals/appendix/appendix-3/APPENDIX-3.MD#internet-identity) as an authentication service and how it works.
