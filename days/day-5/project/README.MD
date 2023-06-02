@@ -36,7 +36,7 @@ public type StudentProfile = {
 addMyProfile: shared (profile : StudentProfile) -> async Result.Result<(), Text>;
 ```
 3. Implement the `seeAProfile` query function, which accepts a principal `p` of type `Principal` and returns the optional corresponding student profile.  
-`seeAProfile` クエリー関数を実装しなさい。この関数は `Principal` 型の principal `p` を受け取り、それに対応する学生プロファイルを optional として返します。
+`seeAProfile` クエリー関数を実装しなさい。この関数は `Principal` 型の principal `p` を受け取り、principal に対応する optional な学生プロファイルを返します。
 ```motoko
 seeAProfile : query (p : Principal) -> async Result.Result<StudentProfile, Text>;
 ```
