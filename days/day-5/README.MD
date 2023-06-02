@@ -36,4 +36,5 @@ Today, we'll delve into extremely crucial concepts: inter-canister calls, managi
 
 > [MOPS](https://mops.one/) は、オンチェーンパッケージレジストリを備えた Motoko 用パッケージマネージャです。これを利用して、あなたのパッケージを公開してください！
 
-Good luck 🍀
+Good luck 🍀  
+幸運を祈ります 🍀
