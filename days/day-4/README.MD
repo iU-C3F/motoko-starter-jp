@@ -30,7 +30,7 @@ Go for a walk or arrange a game session with your teammates to recharge. Try <a 
     - [Trap](../../manuals/chapters/chapter-9/CHAPTER-9.MD#trap)
     - [Try/Catch](../../manuals/chapters/chapter-9/CHAPTER-9.MD#trycatch)
 - Read 読みましょう [Chapter 11: Intercanister calls](../../manuals/chapters/chapter-11/CHAPTER-11.MD)
-    - - Read [Calling actor by reference](../../manuals/chapters/chapter-11/CHAPTER-11.MD#calling-an-actor-by-reference)
+    - - Read 読みましょう [Calling actor by reference](../../manuals/chapters/chapter-11/CHAPTER-11.MD#calling-an-actor-by-reference)
 - Read 読みましょう [Chapter 12: Upgrading a canister](../../manuals/chapters/chapter-12/CHAPTER-12.MD) in full.
 - Complete the [project of the day](./project/README.MD). / [project of the day](./project/README.MD) を完成させてください。
 
@@ -54,4 +54,5 @@ Go for a walk or arrange a game session with your teammates to recharge. Try <a 
 
 > ご存知ですか？ **Motoko** という名前は、漫画「攻殻機動隊」の主人公である **草薙素子** に由来しています。
 
-Good luck 🍀
+Good luck 🍀  
+幸運を祈ります 🍀
