@@ -61,7 +61,7 @@ actor {
 4. Implement `totalSupply` which returns the total number of `MOC` token in circulation.  
 MOCトークンの流通総数を返す `totalSupply` を実装しなさい。
 5. Implement `balanceOf` which takes an `account` and returns the balance of this account. If the account has never interacted with the ledger before, you will return 0.  
-勘定科目 `account` を受け取り、その勘定科目の残高を返す `balanceOf` を実装しなさい。この勘定科目がこれまで一度も元帳とやりとりしたことがない場合は、0 を返すことになります。
+`account` を受け取り、その account の残高を返す `balanceOf` を実装しなさい。この勘定科目がこれまで一度も元帳とやりとりしたことがない場合は、0 を返すことになります。
 6. Implement `transfer` that accepts three parameters: an `Account` object for the sender (`from`), an `Account` object for the recipient (`to`), and a `Nat` value for the amount to be transferred. This function should transfer the specified amount of tokens from the sender's account to the recipient's account. This function should return an error message wrapped in an `Err` result if the caller has not enough token in it's main account.  
 送信者の `Account` オブジェクト (`from`) と受信者の `Account` オブジェクト (`to`) 、そして転送量を表す `Nat` 値の 3 つのパラメータを受け取る `transfer` を実装しなさい。この関数は、指定された量のトークンを送信者のアカウントから受信者のアカウントに転送する必要があります。この関数は、呼び出し元のメインアカウントに十分なトークンがない場合、 `Err` 結果でラップされたエラーメッセージを返す必要があります。
 7. Implement `airdrop` which adds 100 MotoCoin to the main account of all students participating in the Bootcamp.  
