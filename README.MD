@@ -16,7 +16,7 @@ No prior experience is required — you’ll learn everything from how the ICP w
 未経験者でも大丈夫です  - ICP の仕組みから Motoko でのプログラミングまで、幅広く学ぶことができます。<br/>
 
 With engaging lectures, hands-on projects, and a supportive community, you’ll gain a deep understanding of the limitless potential of the Internet Computer. Technical help is available 24/7 on Discord.  
-魅力的な講義、実践的なプロジェクト、協力的なコミュニティにより、Internet Computer の無限の可能性について深く理解できます。テクニカルヘルプは 24 時間 365 日、Discord で利用可能です。
+魅力的な講義、実践的なプロジェクト、協力的なコミュニティにより、Internet Computer の無限の可能性について深く理解できます。テクニカルヘルプは 24 時間 / 7 日間、Discord で利用可能です。
 
 <p align="center"> <img src="./assets/mb_2023.png" height="300px" width="auto" style="border: 2px solid black;"> </p>
 
