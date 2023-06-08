@@ -273,7 +273,7 @@ Simply click the **Query** button, and see the response in the
 One important confusion to avoid is the difference between the local & live Candid UIs:  
 避けるべき重要な混乱の一つは、ローカルと本番の Candid UIの違いです：
 - The live Candid UI is unique for the entire Internet Computer - you can access the interface of any dApp (assuming that the candid file has been shipped). By using the live Candid UI you can directly modify the state of a canister. 
-- Candid UI は Internet Computer 全体にとってユニークなもので、どんな dApp のインターフェースにもアクセスできます（Candid ファイルが出荷されていることが前提です）。Candid UI を使用することで、キャニスターのステートを直接変更できます。
+- Candid UI は Internet Computer 全体にとってユニークなもので、どんな dApp のインターフェースにもアクセスできます（Candid ファイルが同梱されていることが前提です）。Candid UI を使用することで、キャニスターのステートを直接変更できます。
 - The local Candid UI that we tried earlier is only deployed on your local replica. It can only give you access to the canister that you've deployed locally.
 - 先ほど試したローカルの Candid UI は、ローカルレプリカにのみデプロイされます。ローカルにデプロイしたキャニスターにしかアクセスできません。
 

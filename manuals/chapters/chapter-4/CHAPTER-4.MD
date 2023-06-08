@@ -196,7 +196,7 @@ One important confusion to avoid is the difference between the local & live Cand
 Candid のUIは、ローカルと本番の違いも重要なポイントです：
 
 - The [live Candid UI](https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.ic0.app/) is unique for the entire Internet Computer - you can access the interface of any dApp (assuming that the candid file has been shipped). By using the live Candid UI you can directly modify the state of a canister. 
-- [本番 Candid UI](https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.ic0.app/) は、Internet Computer 全体にとってユニークなものです。（Candid ファイルが出荷されていると仮定して）どの dApp のインターフェースにもアクセスできます。Candid UI を使用することで、キャニスターのステートを直接変更できます。
+- [本番 Candid UI](https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.ic0.app/) は、Internet Computer 全体にとってユニークなものです。（Candid ファイルが同梱されていると仮定して）どの dApp のインターフェースにもアクセスできます。Candid UI を使用することで、キャニスターのステートを直接変更できます。
 
 - The local Candid UI that we tried earlier is only deployed on your local replica. It can only give you access to the canister that you've deployed locally.
 
