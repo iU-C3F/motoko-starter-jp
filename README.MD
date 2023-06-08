@@ -2,7 +2,7 @@
 
 <p align="center"> <img src="./assets/motoko_bootcamp_8-14.png"  height="400px" width="auto" style="border: 2px solid black;"> </p> 
 
-### Participate in Motoko Bootcamp: Starter edition. You can follow online from anywhere in the world or join one of [community basecamp](https://discord.gg/FWQszm86cj). / Motoko Bootcamp に参加する： スターター編です。世界中のどこからでもオンラインでフォローできますし、[community basecamp](https://discord.gg/FWQszm86cj) のいずれかに参加することもできます。
+### Participate in Motoko Bootcamp: Starter edition. You can follow online from anywhere in the world or join one of [community basecamp](https://discord.gg/FWQszm86cj). / Motoko Bootcamp に参加する： スターター版。世界中のどこからでもオンラインでフォローできますし、[community basecamp](https://discord.gg/FWQszm86cj) のいずれかに参加できます。
 
 <i> La traducción al español puedes encontrarla [aquí](./spanish/README.MD).  
 スペイン語訳は [こちら](./spanish/README.MD) でご覧いただけます。</i>
