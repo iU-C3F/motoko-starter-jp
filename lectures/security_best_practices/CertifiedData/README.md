@@ -1,10 +1,12 @@
-# Certified Data
+# Certified Data / 認証データ
 
-In this example, we have a simple counter canister ```certified_data```. 
+In this example, we have a simple counter canister ```certified_data```.  
+この例では、単純なカウンターキャニスター ``certified_data`` を用意しています。
 
-The canister exposes an update method ```inc``` to increment to the counter by 1 and set the new certificate for the counter using ```CertifiedData.set```. A query method ```val``` is also available to read the counter along with certificate retrieved via ```CertifiedData.getCertificate()```
+The canister exposes an update method ```inc``` to increment to the counter by 1 and set the new certificate for the counter using ```CertifiedData.set```. A query method ```val``` is also available to read the counter along with certificate retrieved via ```CertifiedData.getCertificate()```  
+キャニスターは更新メソッド ``inc`` を公開しており、カウンターを 1 つ増やし、 ``CertifiedData.set`` を使用してカウンターに新しい証明書を設定します。また、``CertifiedData.getCertificate()`` で取得した証明書とともにカウンタを読み込むためのクエリメソッド ``val`` も用意されています。
 
-### Example 
+### Example / 例
 
 ```
 $ dfx deploy 

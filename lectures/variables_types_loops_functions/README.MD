@@ -1,4 +1,4 @@
-# Lecture:  Variables, loops, functions and types lecture.
+# Lecture:  Variables, loops, functions and types lecture. / 講義: 変数、ループ、関数、型の講義。
 - Estimator example:  https://m7sm4-2iaaa-aaaab-qabra-cai.ic0.app/?tag=2983368476
 
 - Loop example: https://m7sm4-2iaaa-aaaab-qabra-cai.ic0.app/?tag=2235013981

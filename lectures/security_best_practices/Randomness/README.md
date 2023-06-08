@@ -1,12 +1,15 @@
-# Randomness
+# Randomness / ランダム性
 
-In this example, we have two versions of a ```Randomness``` actor exposing a ```random_bytes``` method, which accepts an input number ```n``` and returns random ```n``` bytes. 
+In this example, we have two versions of a ```Randomness``` actor exposing a ```random_bytes``` method, which accepts an input number ```n``` and returns random ```n``` bytes.  
+この例では、2つのバージョンの ``Randomness`` アクターが ``random_bytes`` メソッドを公開しており、入力数 ``n`` を受け取り、ランダムな ``n`` バイトを返します。
 
-In canister ```random_no_reseed```, the ```Finite``` class is seeded only once with ```Random.blob()```. Hence, the ```random_bytes``` method start returning ```null``` bytes, once the fresh randomness of ```32 bytes``` is exhausted. 
+In canister ```random_no_reseed```, the ```Finite``` class is seeded only once with ```Random.blob()```. Hence, the ```random_bytes``` method start returning ```null``` bytes, once the fresh randomness of ```32 bytes``` is exhausted.  
+キャニスター ``random_no_reseed`` では、``Finite`` クラスは ``Random.blob()`` で一度だけシードされます。したがって、``random_bytes`` メソッドは、32バイトのランダム性を使い切ると、``null``バイトを返すようになります。
 
-In canister ```random_reseed```, the ```Finite``` class is reseeded everytime the fresh randomness is exhausted. Thus, ```random_bytes``` can generate random bytes for lengths greater than 32. 
+In canister ```random_reseed```, the ```Finite``` class is reseeded everytime the fresh randomness is exhausted. Thus, ```random_bytes``` can generate random bytes for lengths greater than 32.  
+キャニスター ``random_reseed`` では、新しいランダム性が枯渇するたびに ``Finite`` クラスが再シードされます。したがって、``random_bytes`` は 32 を超える長さのランダムバイトを生成できます。 
 
-### Example 
+### Example / 例
 
 ```
 $ dfx deploy 
