@@ -1,3 +1,30 @@
+# はじめに
+Motoko Bootcamp とは、本来は短期間で集中的に行われる Motoko 言語のオンライン勉強会（例えば 5/8〜5/14 で数十人集まって協力しながら進める）です。時間帯は真夜中であり、まとまった時間を確保する事が難しい方も多いことでしょう。しかし、教材は公開されているため、利用できます。  
+C3F では Motoko Bootcamp での学習を推奨しております。C3F の Discord のチャンネル \"#【c3f開発コミュニティ】\" へお気軽にご質問やご報告していただけますと幸いです。C3F の ICP 開発者コミュニティへの参加は [こちら](https://www.c3f-iu-university.com/icp-dev-community) になります。
+
+day1 から day6 まで公開されています。現時点では、day 7 は内容が無く、実質 day6 までです。
+- [day1](days/day-1/README.md)
+- [day2](days/day-2/README.md)
+- [day3](days/day-3/README.md)
+- [day4](days/day-4/README.md)
+- [day5](days/day-5/README.md)
+- [day6](days/day-6/README.md)
+
+進め方  
+day1 から順番に進めます。各日の最後に project of the day という名前の課題が与えらるため、全ての課題を消化することを目標にすると良いでしょう。
+day1〜day5 は必須です。day6 は任意です。day6 の課題は重く、自由課題となっています。課題を解くには別途自ら調査する必要もあると思われますが、消化することでフロントエンドについても学ぶことができるでしょう。
+
+課題用のテンプレート
+```bash
+mkdir motoko-starter
+npx degit dfinity/examples/svelte/svelte-motoko-starter/ motoko-starter/
+cd motoko-starter/
+npm install
+# day1 の課題を実装した後、その単体テストを実行
+npm run test:day1
+```
+
+# 以降、オリジナルの README.md の翻訳
 # Motoko Bootcamp: starter edition - 7 days to get started on the Internet Computer 🏁 / Motoko Bootcamp ：スターター編～Internet Computer を始めるための7日間 🏁
 
 <p align="center"> <img src="./assets/motoko_bootcamp_8-14.png"  height="400px" width="auto" style="border: 2px solid black;"> </p> 
