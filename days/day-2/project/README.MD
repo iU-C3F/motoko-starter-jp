@@ -92,3 +92,7 @@ actor {
     searchHomework: shared query (searchTerm: Text) -> async [Homework];
 }
 ```
+
+## 最後に
+「最後に」は、C3F の ICP 開発者コミュニティにて、Motoko Bootcamp を進めている方に向けてのものです。
+当課題を消化できたところで、C3F の Discord のチャンネル \"#【c3f開発コミュニティ】\" へその旨を報告しましょう！もしくは、消化が難しい場合は、質問しましょう！
